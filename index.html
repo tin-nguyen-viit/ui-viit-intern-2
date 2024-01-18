@@ -20,7 +20,7 @@
     <title>authentic-shoes</title>
   </head>
   <body class="">
-    <header class="w-full">
+    <header class="w-full hidden lg:block">
       <div
         class="bg-black flex justify-between items-center text-white py-2 px-4 lg:px-36"
       >
@@ -29,7 +29,6 @@
           thời trang quốc tế hàng đầu Việt Nam
         </p>
         <p class="cursor-pointe text-[13px]">Đăng nhập</p>
-        git push -u origin main
       </div>
     </header>
     <!--  -->
@@ -69,19 +68,35 @@
       <img src="/imgs/image-54-2048x711-2.webp" alt="" />
     </div>
     <div
-      class="flex justify-center items-center gap-2 py-6 mx-36 border-b-[1px] border-gray-400/30"
+      class="flex justify-center items-center gap-4 py-6 mx-4 lg:mx-36 border-b-[1px] border-gray-400/30"
     >
-      <button class="py-8 px-12 bg-black text-white rounded-xl">
-        <p class="w-24">Giày Sneaker</p>
+      <button
+        class="rounded-full p-2 lg:py-8 lg:px-12 bg-black text-white lg:rounded-xl"
+      >
+        <p class="flex justify-center items-center w-16 h-16 lg:h-max lg:w-24">
+          Giày Sneaker
+        </p>
       </button>
-      <button class="py-8 px-12 bg-black text-white rounded-xl">
-        <p class="w-24">Áo quần</p>
+      <button
+        class="rounded-full p-2 lg:py-8 lg:px-12 bg-black text-white lg:rounded-xl"
+      >
+        <p class="flex justify-center items-center w-16 h-16 lg:h-max lg:w-24">
+          Áo quần
+        </p>
       </button>
-      <button class="py-8 px-12 bg-black text-white rounded-xl">
-        <p class="w-24">Phụ kiện</p>
+      <button
+        class="rounded-full p-2 lg:py-8 lg:px-12 bg-black text-white lg:rounded-xl"
+      >
+        <p class="flex justify-center items-center w-16 h-16 lg:h-max lg:w-24">
+          Phụ kiện
+        </p>
       </button>
-      <button class="py-8 px-12 bg-black text-white rounded-xl">
-        <p class="w-24">Brand</p>
+      <button
+        class="rounded-full p-2 lg:py-8 lg:px-12 bg-black text-white lg:rounded-xl"
+      >
+        <p class="flex justify-center items-center w-16 h-16 lg:h-max lg:w-24">
+          Brand
+        </p>
       </button>
     </div>
     <div class="px-4 lg:px-36 py-12 w-full flex flex-col gap-1">
@@ -94,14 +109,14 @@
         <!--  -->
         <div class="w-full flex flex-col items-center">
           <div class="w-full flex flex-wrap">
-            <div class="w-1/4 p-1">
+            <div class="w-1/2 lg:w-1/4 p-1">
               <div
-                class="p-5 h-[19rem] border-[1px] border-gray-200 rounded-3xl"
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
               >
-                <div class="p-5 h-full flex items-center relative">
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
                   <img class="object-cover" src="/imgs/giay1.png" alt="" />
-                  <i class="absolute right-0 bottom-1 fa-regular fa-heart"></i>
                 </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
               </div>
               <div class="flex flex-col text-sm gap-1 py-2">
                 <p class="underline">Giày Nike Air Force 1</p>
@@ -111,14 +126,14 @@
                 <p class="font-bold">4500000 đ</p>
               </div>
             </div>
-            <div class="w-1/4 p-1">
+            <div class="w-1/2 lg:w-1/4 p-1">
               <div
-                class="p-5 h-[19rem] border-[1px] border-gray-200 rounded-3xl"
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
               >
-                <div class="p-5 h-full flex items-center relative">
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
                   <img class="object-cover" src="/imgs/giay1.png" alt="" />
-                  <i class="absolute right-0 bottom-1 fa-regular fa-heart"></i>
                 </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
               </div>
               <div class="flex flex-col text-sm gap-1 py-2">
                 <p class="underline">Giày Nike Air Force 1</p>
@@ -128,14 +143,14 @@
                 <p class="font-bold">4500000 đ</p>
               </div>
             </div>
-            <div class="w-1/4 p-1">
+            <div class="w-1/2 lg:w-1/4 p-1">
               <div
-                class="p-5 h-[19rem] border-[1px] border-gray-200 rounded-3xl"
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
               >
-                <div class="p-5 h-full flex items-center relative">
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
                   <img class="object-cover" src="/imgs/giay1.png" alt="" />
-                  <i class="absolute right-0 bottom-1 fa-regular fa-heart"></i>
                 </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
               </div>
               <div class="flex flex-col text-sm gap-1 py-2">
                 <p class="underline">Giày Nike Air Force 1</p>
@@ -145,14 +160,150 @@
                 <p class="font-bold">4500000 đ</p>
               </div>
             </div>
-            <div class="w-1/4 p-1">
+            <div class="w-1/2 lg:w-1/4 p-1">
               <div
-                class="p-5 h-[19rem] border-[1px] border-gray-200 rounded-3xl"
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
               >
-                <div class="p-5 h-full flex items-center relative">
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
                   <img class="object-cover" src="/imgs/giay1.png" alt="" />
-                  <i class="absolute right-0 bottom-1 fa-regular fa-heart"></i>
                 </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
+              </div>
+              <div class="flex flex-col text-sm gap-1 py-2">
+                <p class="underline">Giày Nike Air Force 1</p>
+                <p class="text-pretty cursor-pointer hover:text-blue-300">
+                  Giày Nike Air Force 1 07 Triple White CW2288-111
+                </p>
+                <p class="font-bold">4500000 đ</p>
+              </div>
+            </div>
+            <div class="w-1/2 lg:w-1/4 p-1">
+              <div
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
+              >
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
+                  <img class="object-cover" src="/imgs/giay1.png" alt="" />
+                </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
+              </div>
+              <div class="flex flex-col text-sm gap-1 py-2">
+                <p class="underline">Giày Nike Air Force 1</p>
+                <p class="text-pretty cursor-pointer hover:text-blue-300">
+                  Giày Nike Air Force 1 07 Triple White CW2288-111
+                </p>
+                <p class="font-bold">4500000 đ</p>
+              </div>
+            </div>
+            <div class="w-1/2 lg:w-1/4 p-1">
+              <div
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
+              >
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
+                  <img class="object-cover" src="/imgs/giay1.png" alt="" />
+                </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
+              </div>
+              <div class="flex flex-col text-sm gap-1 py-2">
+                <p class="underline">Giày Nike Air Force 1</p>
+                <p class="text-pretty cursor-pointer hover:text-blue-300">
+                  Giày Nike Air Force 1 07 Triple White CW2288-111
+                </p>
+                <p class="font-bold">4500000 đ</p>
+              </div>
+            </div>
+            <div class="w-1/2 lg:w-1/4 p-1">
+              <div
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
+              >
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
+                  <img class="object-cover" src="/imgs/giay1.png" alt="" />
+                </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
+              </div>
+              <div class="flex flex-col text-sm gap-1 py-2">
+                <p class="underline">Giày Nike Air Force 1</p>
+                <p class="text-pretty cursor-pointer hover:text-blue-300">
+                  Giày Nike Air Force 1 07 Triple White CW2288-111
+                </p>
+                <p class="font-bold">4500000 đ</p>
+              </div>
+            </div>
+            <div class="w-1/2 lg:w-1/4 p-1">
+              <div
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
+              >
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
+                  <img class="object-cover" src="/imgs/giay1.png" alt="" />
+                </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
+              </div>
+              <div class="flex flex-col text-sm gap-1 py-2">
+                <p class="underline">Giày Nike Air Force 1</p>
+                <p class="text-pretty cursor-pointer hover:text-blue-300">
+                  Giày Nike Air Force 1 07 Triple White CW2288-111
+                </p>
+                <p class="font-bold">4500000 đ</p>
+              </div>
+            </div>
+            <div class="w-1/2 lg:w-1/4 p-1">
+              <div
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
+              >
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
+                  <img class="object-cover" src="/imgs/giay1.png" alt="" />
+                </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
+              </div>
+              <div class="flex flex-col text-sm gap-1 py-2">
+                <p class="underline">Giày Nike Air Force 1</p>
+                <p class="text-pretty cursor-pointer hover:text-blue-300">
+                  Giày Nike Air Force 1 07 Triple White CW2288-111
+                </p>
+                <p class="font-bold">4500000 đ</p>
+              </div>
+            </div>
+            <div class="w-1/2 lg:w-1/4 p-1">
+              <div
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
+              >
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
+                  <img class="object-cover" src="/imgs/giay1.png" alt="" />
+                </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
+              </div>
+              <div class="flex flex-col text-sm gap-1 py-2">
+                <p class="underline">Giày Nike Air Force 1</p>
+                <p class="text-pretty cursor-pointer hover:text-blue-300">
+                  Giày Nike Air Force 1 07 Triple White CW2288-111
+                </p>
+                <p class="font-bold">4500000 đ</p>
+              </div>
+            </div>
+            <div class="w-1/2 lg:w-1/4 p-1">
+              <div
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
+              >
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
+                  <img class="object-cover" src="/imgs/giay1.png" alt="" />
+                </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
+              </div>
+              <div class="flex flex-col text-sm gap-1 py-2">
+                <p class="underline">Giày Nike Air Force 1</p>
+                <p class="text-pretty cursor-pointer hover:text-blue-300">
+                  Giày Nike Air Force 1 07 Triple White CW2288-111
+                </p>
+                <p class="font-bold">4500000 đ</p>
+              </div>
+            </div>
+            <div class="w-1/2 lg:w-1/4 p-1">
+              <div
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
+              >
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
+                  <img class="object-cover" src="/imgs/giay1.png" alt="" />
+                </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
               </div>
               <div class="flex flex-col text-sm gap-1 py-2">
                 <p class="underline">Giày Nike Air Force 1</p>
@@ -165,151 +316,7 @@
           </div>
         </div>
         <!--  -->
-        <div class="w-full flex flex-col items-center">
-          <div class="w-full flex flex-wrap">
-            <div class="w-1/4 p-1">
-              <div
-                class="p-5 h-[19rem] border-[1px] border-gray-200 rounded-3xl"
-              >
-                <div class="p-5 h-full flex items-center relative">
-                  <img class="object-cover" src="/imgs/giay1.png" alt="" />
-                  <i class="absolute right-0 bottom-1 fa-regular fa-heart"></i>
-                </div>
-              </div>
-              <div class="flex flex-col text-sm gap-1 py-2">
-                <p class="underline">Giày Nike Air Force 1</p>
-                <p class="text-pretty cursor-pointer hover:text-blue-300">
-                  Giày Nike Air Force 1 07 Triple White CW2288-111
-                </p>
-                <p class="font-bold">4500000 đ</p>
-              </div>
-            </div>
-            <div class="w-1/4 p-1">
-              <div
-                class="p-5 h-[19rem] border-[1px] border-gray-200 rounded-3xl"
-              >
-                <div class="p-5 h-full flex items-center relative">
-                  <img class="object-cover" src="/imgs/giay1.png" alt="" />
-                  <i class="absolute right-0 bottom-1 fa-regular fa-heart"></i>
-                </div>
-              </div>
-              <div class="flex flex-col text-sm gap-1 py-2">
-                <p class="underline">Giày Nike Air Force 1</p>
-                <p class="text-pretty cursor-pointer hover:text-blue-300">
-                  Giày Nike Air Force 1 07 Triple White CW2288-111
-                </p>
-                <p class="font-bold">4500000 đ</p>
-              </div>
-            </div>
-            <div class="w-1/4 p-1">
-              <div
-                class="p-5 h-[19rem] border-[1px] border-gray-200 rounded-3xl"
-              >
-                <div class="p-5 h-full flex items-center relative">
-                  <img class="object-cover" src="/imgs/giay1.png" alt="" />
-                  <i class="absolute right-0 bottom-1 fa-regular fa-heart"></i>
-                </div>
-              </div>
-              <div class="flex flex-col text-sm gap-1 py-2">
-                <p class="underline">Giày Nike Air Force 1</p>
-                <p class="text-pretty cursor-pointer hover:text-blue-300">
-                  Giày Nike Air Force 1 07 Triple White CW2288-111
-                </p>
-                <p class="font-bold">4500000 đ</p>
-              </div>
-            </div>
-            <div class="w-1/4 p-1">
-              <div
-                class="p-5 h-[19rem] border-[1px] border-gray-200 rounded-3xl"
-              >
-                <div class="p-5 h-full flex items-center relative">
-                  <img class="object-cover" src="/imgs/giay1.png" alt="" />
-                  <i class="absolute right-0 bottom-1 fa-regular fa-heart"></i>
-                </div>
-              </div>
-              <div class="flex flex-col text-sm gap-1 py-2">
-                <p class="underline">Giày Nike Air Force 1</p>
-                <p class="text-pretty cursor-pointer hover:text-blue-300">
-                  Giày Nike Air Force 1 07 Triple White CW2288-111
-                </p>
-                <p class="font-bold">4500000 đ</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--  -->
-        <div class="w-full flex flex-col items-center">
-          <div class="w-full flex flex-wrap">
-            <div class="w-1/4 p-1">
-              <div
-                class="p-5 h-[19rem] border-[1px] border-gray-200 rounded-3xl"
-              >
-                <div class="p-5 h-full flex items-center relative">
-                  <img class="object-cover" src="/imgs/giay1.png" alt="" />
-                  <i class="absolute right-0 bottom-1 fa-regular fa-heart"></i>
-                </div>
-              </div>
-              <div class="flex flex-col text-sm gap-1 py-2">
-                <p class="underline">Giày Nike Air Force 1</p>
-                <p class="text-pretty cursor-pointer hover:text-blue-300">
-                  Giày Nike Air Force 1 07 Triple White CW2288-111
-                </p>
-                <p class="font-bold">4500000 đ</p>
-              </div>
-            </div>
-            <div class="w-1/4 p-1">
-              <div
-                class="p-5 h-[19rem] border-[1px] border-gray-200 rounded-3xl"
-              >
-                <div class="p-5 h-full flex items-center relative">
-                  <img class="object-cover" src="/imgs/giay1.png" alt="" />
-                  <i class="absolute right-0 bottom-1 fa-regular fa-heart"></i>
-                </div>
-              </div>
-              <div class="flex flex-col text-sm gap-1 py-2">
-                <p class="underline">Giày Nike Air Force 1</p>
-                <p class="text-pretty cursor-pointer hover:text-blue-300">
-                  Giày Nike Air Force 1 07 Triple White CW2288-111
-                </p>
-                <p class="font-bold">4500000 đ</p>
-              </div>
-            </div>
-            <div class="w-1/4 p-1">
-              <div
-                class="p-5 h-[19rem] border-[1px] border-gray-200 rounded-3xl"
-              >
-                <div class="p-5 h-full flex items-center relative">
-                  <img class="object-cover" src="/imgs/giay1.png" alt="" />
-                  <i class="absolute right-0 bottom-1 fa-regular fa-heart"></i>
-                </div>
-              </div>
-              <div class="flex flex-col text-sm gap-1 py-2">
-                <p class="underline">Giày Nike Air Force 1</p>
-                <p class="text-pretty cursor-pointer hover:text-blue-300">
-                  Giày Nike Air Force 1 07 Triple White CW2288-111
-                </p>
-                <p class="font-bold">4500000 đ</p>
-              </div>
-            </div>
-            <div class="w-1/4 p-1">
-              <div
-                class="p-5 h-[19rem] border-[1px] border-gray-200 rounded-3xl"
-              >
-                <div class="p-5 h-full flex items-center relative">
-                  <img class="object-cover" src="/imgs/giay1.png" alt="" />
-                  <i class="absolute right-0 bottom-1 fa-regular fa-heart"></i>
-                </div>
-              </div>
-              <div class="flex flex-col text-sm gap-1 py-2">
-                <p class="underline">Giày Nike Air Force 1</p>
-                <p class="text-pretty cursor-pointer hover:text-blue-300">
-                  Giày Nike Air Force 1 07 Triple White CW2288-111
-                </p>
-                <p class="font-bold">4500000 đ</p>
-              </div>
-            </div>
-          </div>
-        </div>
+
         <!--  -->
         <button
           class="bg-white border-[2px] mt-10 py-3 px-10 w-max rounded-xl hover:bg-black hover:text-white"
@@ -319,14 +326,16 @@
         </button>
       </div>
     </div>
-    <div class="px-4 lg:px-36 py-12 w-full flex flex-col gap-1">
+    <div class="px-4 py-4 lg:px-36 lg:py-12 w-full flex flex-col gap-1">
       <p class="text-base font-bold">Thương Hiệu Nổi Bật</p>
       <p class="text-base">Mặt hàng giày các thương hiệu nổi bật</p>
     </div>
     <div class="flex flex-wrap items-center py-1 px-4 lg:px-36">
       <!--  -->
       <div class="w-1/5 flex flex-col items-center p-1">
-        <div class="w-full flex items-center py-8 px-6 rounded-xl bg-gray-200">
+        <div
+          class="w-full flex items-center py-6 px-3 lg:py-8 lg:px-6 rounded-full lg:rounded-xl bg-gray-200"
+        >
           <img
             class="object-cover"
             src="https://cdn.authentic-shoes.com/wp-content/uploads/2024/01/IE0586.webp"
@@ -337,7 +346,9 @@
       </div>
       <!--  -->
       <div class="w-1/5 flex flex-col items-center p-1">
-        <div class="w-full flex items-center py-8 px-6 rounded-xl bg-gray-200">
+        <div
+          class="w-full flex items-center py-6 px-3 lg:py-8 lg:px-6 rounded-full lg:rounded-xl bg-gray-200"
+        >
           <img
             class="object-cover"
             src="https://cdn.authentic-shoes.com/wp-content/uploads/2024/01/IE0586.webp"
@@ -348,7 +359,9 @@
       </div>
       <!--  -->
       <div class="w-1/5 flex flex-col items-center p-1">
-        <div class="w-full flex items-center py-8 px-6 rounded-xl bg-gray-200">
+        <div
+          class="w-full flex items-center py-6 px-3 lg:py-8 lg:px-6 rounded-full lg:rounded-xl bg-gray-200"
+        >
           <img
             class="object-cover"
             src="https://cdn.authentic-shoes.com/wp-content/uploads/2024/01/IE0586.webp"
@@ -359,7 +372,9 @@
       </div>
       <!--  -->
       <div class="w-1/5 flex flex-col items-center p-1">
-        <div class="w-full flex items-center py-8 px-6 rounded-xl bg-gray-200">
+        <div
+          class="w-full flex items-center py-6 px-3 lg:py-8 lg:px-6 rounded-full lg:rounded-xl bg-gray-200"
+        >
           <img
             class="object-cover"
             src="https://cdn.authentic-shoes.com/wp-content/uploads/2024/01/IE0586.webp"
@@ -370,7 +385,9 @@
       </div>
       <!--  -->
       <div class="w-1/5 flex flex-col items-center p-1">
-        <div class="w-full flex items-center py-8 px-6 rounded-xl bg-gray-200">
+        <div
+          class="w-full flex items-center py-6 px-3 lg:py-8 lg:px-6 rounded-full lg:rounded-xl bg-gray-200"
+        >
           <img
             class="object-cover"
             src="https://cdn.authentic-shoes.com/wp-content/uploads/2024/01/IE0586.webp"
@@ -381,7 +398,9 @@
       </div>
       <!--  -->
       <div class="w-1/5 flex flex-col items-center p-1">
-        <div class="w-full flex items-center py-8 px-6 rounded-xl bg-gray-200">
+        <div
+          class="w-full flex items-center py-6 px-3 lg:py-8 lg:px-6 rounded-full lg:rounded-xl bg-gray-200"
+        >
           <img
             class="object-cover"
             src="https://cdn.authentic-shoes.com/wp-content/uploads/2024/01/IE0586.webp"
@@ -392,7 +411,9 @@
       </div>
       <!--  -->
       <div class="w-1/5 flex flex-col items-center p-1">
-        <div class="w-full flex items-center py-8 px-6 rounded-xl bg-gray-200">
+        <div
+          class="w-full flex items-center py-6 px-3 lg:py-8 lg:px-6 rounded-full lg:rounded-xl bg-gray-200"
+        >
           <img
             class="object-cover"
             src="https://cdn.authentic-shoes.com/wp-content/uploads/2024/01/IE0586.webp"
@@ -403,7 +424,9 @@
       </div>
       <!--  -->
       <div class="w-1/5 flex flex-col items-center p-1">
-        <div class="w-full flex items-center py-8 px-6 rounded-xl bg-gray-200">
+        <div
+          class="w-full flex items-center py-6 px-3 lg:py-8 lg:px-6 rounded-full lg:rounded-xl bg-gray-200"
+        >
           <img
             class="object-cover"
             src="https://cdn.authentic-shoes.com/wp-content/uploads/2024/01/IE0586.webp"
@@ -414,7 +437,9 @@
       </div>
       <!--  -->
       <div class="w-1/5 flex flex-col items-center p-1">
-        <div class="w-full flex items-center py-8 px-6 rounded-xl bg-gray-200">
+        <div
+          class="w-full flex items-center py-6 px-3 lg:py-8 lg:px-6 rounded-full lg:rounded-xl bg-gray-200"
+        >
           <img
             class="object-cover"
             src="https://cdn.authentic-shoes.com/wp-content/uploads/2024/01/IE0586.webp"
@@ -425,7 +450,9 @@
       </div>
       <!--  -->
       <div class="w-1/5 flex flex-col items-center p-1">
-        <div class="w-full flex items-center py-8 px-6 rounded-xl bg-gray-200">
+        <div
+          class="w-full flex items-center py-6 px-3 lg:py-8 lg:px-6 rounded-full lg:rounded-xl bg-gray-200"
+        >
           <img
             class="object-cover"
             src="https://cdn.authentic-shoes.com/wp-content/uploads/2024/01/IE0586.webp"
@@ -436,7 +463,9 @@
       </div>
       <!--  -->
       <div class="w-1/5 flex flex-col items-center p-1">
-        <div class="w-full flex items-center py-8 px-6 rounded-xl bg-gray-200">
+        <div
+          class="w-full flex items-center py-6 px-3 lg:py-8 lg:px-6 rounded-full lg:rounded-xl bg-gray-200"
+        >
           <img
             class="object-cover"
             src="https://cdn.authentic-shoes.com/wp-content/uploads/2024/01/IE0586.webp"
@@ -447,7 +476,9 @@
       </div>
       <!--  -->
       <div class="w-1/5 flex flex-col items-center p-1">
-        <div class="w-full flex items-center py-8 px-6 rounded-xl bg-gray-200">
+        <div
+          class="w-full flex items-center py-6 px-3 lg:py-8 lg:px-6 rounded-full lg:rounded-xl bg-gray-200"
+        >
           <img
             class="object-cover"
             src="https://cdn.authentic-shoes.com/wp-content/uploads/2024/01/IE0586.webp"
@@ -458,7 +489,9 @@
       </div>
       <!--  -->
       <div class="w-1/5 flex flex-col items-center p-1">
-        <div class="w-full flex items-center py-8 px-6 rounded-xl bg-gray-200">
+        <div
+          class="w-full flex items-center py-6 px-3 lg:py-8 lg:px-6 rounded-full lg:rounded-xl bg-gray-200"
+        >
           <img
             class="object-cover"
             src="https://cdn.authentic-shoes.com/wp-content/uploads/2024/01/IE0586.webp"
@@ -469,7 +502,9 @@
       </div>
       <!--  -->
       <div class="w-1/5 flex flex-col items-center p-1">
-        <div class="w-full flex items-center py-8 px-6 rounded-xl bg-gray-200">
+        <div
+          class="w-full flex items-center py-6 px-3 lg:py-8 lg:px-6 rounded-full lg:rounded-xl bg-gray-200"
+        >
           <img
             class="object-cover"
             src="https://cdn.authentic-shoes.com/wp-content/uploads/2024/01/IE0586.webp"
@@ -478,15 +513,17 @@
         </div>
         <p class="p-2 text-base">Adidas</p>
       </div>
-      <!--  -->
+
+      <!--panner 1  -->
     </div>
-    <div class="w-full h-72 felx items-center overflow-hidden">
+    <div class="w-full h-max lg:h-72 felx items-center overflow-hidden">
       <img
         class="object-cover lg:mt-[-4rem] my-auto"
         src="/imgs/Adidas-Yeezy-Slide-2048x648.webp"
         alt=""
       />
     </div>
+    <!--  -->
     <div class="px-4 lg:px-36 py-12 w-full flex flex-col gap-1">
       <p class="text-base font-bold">Giày chính hãng Nike 2023</p>
       <p class="text-base">
@@ -497,14 +534,15 @@
         <!--  -->
         <div class="w-full flex flex-col items-center">
           <div class="w-full flex flex-wrap">
-            <div class="w-1/4 p-1">
+            <!--  -->
+            <div class="w-1/2 lg:w-1/4 p-1">
               <div
-                class="p-5 h-[19rem] border-[1px] border-gray-200 rounded-3xl"
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
               >
-                <div class="p-5 h-full flex items-center relative">
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
                   <img class="object-cover" src="/imgs/giay1.png" alt="" />
-                  <i class="absolute right-0 bottom-1 fa-regular fa-heart"></i>
                 </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
               </div>
               <div class="flex flex-col text-sm gap-1 py-2">
                 <p class="underline">Giày Nike Air Force 1</p>
@@ -514,14 +552,15 @@
                 <p class="font-bold">4500000 đ</p>
               </div>
             </div>
-            <div class="w-1/4 p-1">
+            <!--  -->
+            <div class="w-1/2 lg:w-1/4 p-1">
               <div
-                class="p-5 h-[19rem] border-[1px] border-gray-200 rounded-3xl"
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
               >
-                <div class="p-5 h-full flex items-center relative">
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
                   <img class="object-cover" src="/imgs/giay1.png" alt="" />
-                  <i class="absolute right-0 bottom-1 fa-regular fa-heart"></i>
                 </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
               </div>
               <div class="flex flex-col text-sm gap-1 py-2">
                 <p class="underline">Giày Nike Air Force 1</p>
@@ -531,14 +570,15 @@
                 <p class="font-bold">4500000 đ</p>
               </div>
             </div>
-            <div class="w-1/4 p-1">
+            <!--  -->
+            <div class="w-1/2 lg:w-1/4 p-1">
               <div
-                class="p-5 h-[19rem] border-[1px] border-gray-200 rounded-3xl"
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
               >
-                <div class="p-5 h-full flex items-center relative">
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
                   <img class="object-cover" src="/imgs/giay1.png" alt="" />
-                  <i class="absolute right-0 bottom-1 fa-regular fa-heart"></i>
                 </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
               </div>
               <div class="flex flex-col text-sm gap-1 py-2">
                 <p class="underline">Giày Nike Air Force 1</p>
@@ -548,14 +588,195 @@
                 <p class="font-bold">4500000 đ</p>
               </div>
             </div>
-            <div class="w-1/4 p-1">
+            <!--  -->
+            <div class="w-1/2 lg:w-1/4 p-1">
               <div
-                class="p-5 h-[19rem] border-[1px] border-gray-200 rounded-3xl"
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
               >
-                <div class="p-5 h-full flex items-center relative">
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
                   <img class="object-cover" src="/imgs/giay1.png" alt="" />
-                  <i class="absolute right-0 bottom-1 fa-regular fa-heart"></i>
                 </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
+              </div>
+              <div class="flex flex-col text-sm gap-1 py-2">
+                <p class="underline">Giày Nike Air Force 1</p>
+                <p class="text-pretty cursor-pointer hover:text-blue-300">
+                  Giày Nike Air Force 1 07 Triple White CW2288-111
+                </p>
+                <p class="font-bold">4500000 đ</p>
+              </div>
+            </div>
+            <!--  -->
+            <div class="w-1/2 lg:w-1/4 p-1">
+              <div
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
+              >
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
+                  <img class="object-cover" src="/imgs/giay1.png" alt="" />
+                </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
+              </div>
+              <div class="flex flex-col text-sm gap-1 py-2">
+                <p class="underline">Giày Nike Air Force 1</p>
+                <p class="text-pretty cursor-pointer hover:text-blue-300">
+                  Giày Nike Air Force 1 07 Triple White CW2288-111
+                </p>
+                <p class="font-bold">4500000 đ</p>
+              </div>
+            </div>
+            <!--  -->
+            <div class="w-1/2 lg:w-1/4 p-1">
+              <div
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
+              >
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
+                  <img class="object-cover" src="/imgs/giay1.png" alt="" />
+                </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
+              </div>
+              <div class="flex flex-col text-sm gap-1 py-2">
+                <p class="underline">Giày Nike Air Force 1</p>
+                <p class="text-pretty cursor-pointer hover:text-blue-300">
+                  Giày Nike Air Force 1 07 Triple White CW2288-111
+                </p>
+                <p class="font-bold">4500000 đ</p>
+              </div>
+            </div>
+            <!--  -->
+            <div class="w-1/2 lg:w-1/4 p-1">
+              <div
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
+              >
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
+                  <img class="object-cover" src="/imgs/giay1.png" alt="" />
+                </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
+              </div>
+              <div class="flex flex-col text-sm gap-1 py-2">
+                <p class="underline">Giày Nike Air Force 1</p>
+                <p class="text-pretty cursor-pointer hover:text-blue-300">
+                  Giày Nike Air Force 1 07 Triple White CW2288-111
+                </p>
+                <p class="font-bold">4500000 đ</p>
+              </div>
+            </div>
+            <!--  -->
+            <div class="w-1/2 lg:w-1/4 p-1">
+              <div
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
+              >
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
+                  <img class="object-cover" src="/imgs/giay1.png" alt="" />
+                </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
+              </div>
+              <div class="flex flex-col text-sm gap-1 py-2">
+                <p class="underline">Giày Nike Air Force 1</p>
+                <p class="text-pretty cursor-pointer hover:text-blue-300">
+                  Giày Nike Air Force 1 07 Triple White CW2288-111
+                </p>
+                <p class="font-bold">4500000 đ</p>
+              </div>
+            </div>
+            <!--  -->
+            <div class="w-1/2 lg:w-1/4 p-1">
+              <div
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
+              >
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
+                  <img class="object-cover" src="/imgs/giay1.png" alt="" />
+                </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
+              </div>
+              <div class="flex flex-col text-sm gap-1 py-2">
+                <p class="underline">Giày Nike Air Force 1</p>
+                <p class="text-pretty cursor-pointer hover:text-blue-300">
+                  Giày Nike Air Force 1 07 Triple White CW2288-111
+                </p>
+                <p class="font-bold">4500000 đ</p>
+              </div>
+            </div>
+            <!--  -->
+            <div class="w-1/2 lg:w-1/4 p-1">
+              <div
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
+              >
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
+                  <img class="object-cover" src="/imgs/giay1.png" alt="" />
+                </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
+              </div>
+              <div class="flex flex-col text-sm gap-1 py-2">
+                <p class="underline">Giày Nike Air Force 1</p>
+                <p class="text-pretty cursor-pointer hover:text-blue-300">
+                  Giày Nike Air Force 1 07 Triple White CW2288-111
+                </p>
+                <p class="font-bold">4500000 đ</p>
+              </div>
+            </div>
+            <!--  -->
+            <div class="w-1/2 lg:w-1/4 p-1">
+              <div
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
+              >
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
+                  <img class="object-cover" src="/imgs/giay1.png" alt="" />
+                </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
+              </div>
+              <div class="flex flex-col text-sm gap-1 py-2">
+                <p class="underline">Giày Nike Air Force 1</p>
+                <p class="text-pretty cursor-pointer hover:text-blue-300">
+                  Giày Nike Air Force 1 07 Triple White CW2288-111
+                </p>
+                <p class="font-bold">4500000 đ</p>
+              </div>
+            </div>
+            <!--  -->
+            <div class="w-1/2 lg:w-1/4 p-1">
+              <div
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
+              >
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
+                  <img class="object-cover" src="/imgs/giay1.png" alt="" />
+                </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
+              </div>
+              <div class="flex flex-col text-sm gap-1 py-2">
+                <p class="underline">Giày Nike Air Force 1</p>
+                <p class="text-pretty cursor-pointer hover:text-blue-300">
+                  Giày Nike Air Force 1 07 Triple White CW2288-111
+                </p>
+                <p class="font-bold">4500000 đ</p>
+              </div>
+            </div>
+            <!--  -->
+            <div class="w-1/2 lg:w-1/4 p-1">
+              <div
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
+              >
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
+                  <img class="object-cover" src="/imgs/giay1.png" alt="" />
+                </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
+              </div>
+              <div class="flex flex-col text-sm gap-1 py-2">
+                <p class="underline">Giày Nike Air Force 1</p>
+                <p class="text-pretty cursor-pointer hover:text-blue-300">
+                  Giày Nike Air Force 1 07 Triple White CW2288-111
+                </p>
+                <p class="font-bold">4500000 đ</p>
+              </div>
+            </div>
+            <!--  -->
+            <div class="w-1/2 lg:w-1/4 p-1">
+              <div
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
+              >
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
+                  <img class="object-cover" src="/imgs/giay1.png" alt="" />
+                </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
               </div>
               <div class="flex flex-col text-sm gap-1 py-2">
                 <p class="underline">Giày Nike Air Force 1</p>
@@ -568,74 +789,205 @@
           </div>
         </div>
         <!--  -->
+
+        <button
+          class="bg-white border-[2px] mt-10 py-3 px-10 w-max rounded-xl hover:bg-black hover:text-white"
+        >
+          Xem tất cả cả
+          <i class="fa-solid fa-angle-right fa-sm" style="color: #000"></i>
+        </button>
+      </div>
+    </div>
+    <!--  -->
+    <div class="w-full h-max lg:h-72 felx items-center overflow-hidden">
+      <img
+        class="object-cover lg:mt-[-4rem] my-auto"
+        src="/imgs/Jordan7RetroInfraredRelease_Prim-1-2048x648.webp"
+        alt=""
+      />
+    </div>
+    <!--  -->
+    <div class="px-4 lg:px-36 py-12 w-full flex flex-col gap-1">
+      <p class="text-base font-bold">Phụ kiện</p>
+      <p class="text-base">Mặt hàng phụ kiện các thương hiệu nổi bật</p>
+      <div class="flex flex-col items-center border-b-[2px] pb-10">
+        <!--  -->
         <div class="w-full flex flex-col items-center">
           <div class="w-full flex flex-wrap">
-            <div class="w-1/4 p-1">
+            <!--  -->
+            <div class="w-1/2 lg:w-1/4 p-1">
               <div
-                class="p-5 h-[19rem] border-[1px] border-gray-200 rounded-3xl"
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
               >
-                <div class="p-5 h-full flex items-center relative">
-                  <img class="object-cover" src="/imgs/giay1.png" alt="" />
-                  <i class="absolute right-0 bottom-1 fa-regular fa-heart"></i>
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
+                  <img
+                    class="object-cover"
+                    src="/imgs/Nuoc-Hoa-Tom-Ford-Fabulous-EDP-1.png"
+                    alt=""
+                  />
                 </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
               </div>
               <div class="flex flex-col text-sm gap-1 py-2">
-                <p class="underline">Giày Nike Air Force 1</p>
+                <p class="underline">Phụ kiện</p>
                 <p class="text-pretty cursor-pointer hover:text-blue-300">
-                  Giày Nike Air Force 1 07 Triple White CW2288-111
+                  Nước Hoa Alaïa Alaia Paris EDP
                 </p>
-                <p class="font-bold">4500000 đ</p>
+                <p class="font-bold">4,500,000 đ</p>
               </div>
             </div>
-            <div class="w-1/4 p-1">
+            <!--  -->
+            <div class="w-1/2 lg:w-1/4 p-1">
               <div
-                class="p-5 h-[19rem] border-[1px] border-gray-200 rounded-3xl"
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
               >
-                <div class="p-5 h-full flex items-center relative">
-                  <img class="object-cover" src="/imgs/giay1.png" alt="" />
-                  <i class="absolute right-0 bottom-1 fa-regular fa-heart"></i>
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
+                  <img
+                    class="object-cover"
+                    src="/imgs/Nuoc-Hoa-Tom-Ford-Fabulous-EDP-1.png"
+                    alt=""
+                  />
                 </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
               </div>
               <div class="flex flex-col text-sm gap-1 py-2">
-                <p class="underline">Giày Nike Air Force 1</p>
+                <p class="underline">Phụ kiện</p>
                 <p class="text-pretty cursor-pointer hover:text-blue-300">
-                  Giày Nike Air Force 1 07 Triple White CW2288-111
+                  Nước Hoa Alaïa Alaia Paris EDP
                 </p>
-                <p class="font-bold">4500000 đ</p>
+                <p class="font-bold">4,500,000 đ</p>
               </div>
             </div>
-            <div class="w-1/4 p-1">
+            <!--  -->
+            <div class="w-1/2 lg:w-1/4 p-1">
               <div
-                class="p-5 h-[19rem] border-[1px] border-gray-200 rounded-3xl"
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
               >
-                <div class="p-5 h-full flex items-center relative">
-                  <img class="object-cover" src="/imgs/giay1.png" alt="" />
-                  <i class="absolute right-0 bottom-1 fa-regular fa-heart"></i>
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
+                  <img
+                    class="object-cover"
+                    src="/imgs/Nuoc-Hoa-Tom-Ford-Fabulous-EDP-1.png"
+                    alt=""
+                  />
                 </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
               </div>
               <div class="flex flex-col text-sm gap-1 py-2">
-                <p class="underline">Giày Nike Air Force 1</p>
+                <p class="underline">Phụ kiện</p>
                 <p class="text-pretty cursor-pointer hover:text-blue-300">
-                  Giày Nike Air Force 1 07 Triple White CW2288-111
+                  Nước Hoa Alaïa Alaia Paris EDP
                 </p>
-                <p class="font-bold">4500000 đ</p>
+                <p class="font-bold">4,500,000 đ</p>
               </div>
             </div>
-            <div class="w-1/4 p-1">
+            <!--  -->
+            <div class="w-1/2 lg:w-1/4 p-1">
               <div
-                class="p-5 h-[19rem] border-[1px] border-gray-200 rounded-3xl"
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
               >
-                <div class="p-5 h-full flex items-center relative">
-                  <img class="object-cover" src="/imgs/giay1.png" alt="" />
-                  <i class="absolute right-0 bottom-1 fa-regular fa-heart"></i>
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
+                  <img
+                    class="object-cover"
+                    src="/imgs/Nuoc-Hoa-Tom-Ford-Fabulous-EDP-1.png"
+                    alt=""
+                  />
                 </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
               </div>
               <div class="flex flex-col text-sm gap-1 py-2">
-                <p class="underline">Giày Nike Air Force 1</p>
+                <p class="underline">Phụ kiện</p>
                 <p class="text-pretty cursor-pointer hover:text-blue-300">
-                  Giày Nike Air Force 1 07 Triple White CW2288-111
+                  Nước Hoa Alaïa Alaia Paris EDP
                 </p>
-                <p class="font-bold">4500000 đ</p>
+                <p class="font-bold">4,500,000 đ</p>
+              </div>
+            </div>
+            <!--  -->
+            <div class="w-1/2 lg:w-1/4 p-1">
+              <div
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
+              >
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
+                  <img
+                    class="object-cover"
+                    src="/imgs/Nuoc-Hoa-Tom-Ford-Fabulous-EDP-1.png"
+                    alt=""
+                  />
+                </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
+              </div>
+              <div class="flex flex-col text-sm gap-1 py-2">
+                <p class="underline">Phụ kiện</p>
+                <p class="text-pretty cursor-pointer hover:text-blue-300">
+                  Nước Hoa Alaïa Alaia Paris EDP
+                </p>
+                <p class="font-bold">4,500,000 đ</p>
+              </div>
+            </div>
+            <!--  -->
+            <div class="w-1/2 lg:w-1/4 p-1">
+              <div
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
+              >
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
+                  <img
+                    class="object-cover"
+                    src="/imgs/Nuoc-Hoa-Tom-Ford-Fabulous-EDP-1.png"
+                    alt=""
+                  />
+                </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
+              </div>
+              <div class="flex flex-col text-sm gap-1 py-2">
+                <p class="underline">Phụ kiện</p>
+                <p class="text-pretty cursor-pointer hover:text-blue-300">
+                  Nước Hoa Alaïa Alaia Paris EDP
+                </p>
+                <p class="font-bold">4,500,000 đ</p>
+              </div>
+            </div>
+            <!--  -->
+            <div class="w-1/2 lg:w-1/4 p-1">
+              <div
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
+              >
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
+                  <img
+                    class="object-cover"
+                    src="/imgs/Nuoc-Hoa-Tom-Ford-Fabulous-EDP-1.png"
+                    alt=""
+                  />
+                </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
+              </div>
+              <div class="flex flex-col text-sm gap-1 py-2">
+                <p class="underline">Phụ kiện</p>
+                <p class="text-pretty cursor-pointer hover:text-blue-300">
+                  Nước Hoa Alaïa Alaia Paris EDP
+                </p>
+                <p class="font-bold">4,500,000 đ</p>
+              </div>
+            </div>
+            <!--  -->
+            <div class="w-1/2 lg:w-1/4 p-1">
+              <div
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
+              >
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
+                  <img
+                    class="object-cover"
+                    src="/imgs/Nuoc-Hoa-Tom-Ford-Fabulous-EDP-1.png"
+                    alt=""
+                  />
+                </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
+              </div>
+              <div class="flex flex-col text-sm gap-1 py-2">
+                <p class="underline">Phụ kiện</p>
+                <p class="text-pretty cursor-pointer hover:text-blue-300">
+                  Nước Hoa Alaïa Alaia Paris EDP
+                </p>
+                <p class="font-bold">4,500,000 đ</p>
               </div>
             </div>
           </div>
@@ -649,5 +1001,278 @@
         </button>
       </div>
     </div>
+    <!--  -->
+    <div class="px-4 lg:px-36 py-12 w-full flex flex-col gap-1">
+      <p class="text-base font-bold">Phụ kiện</p>
+      <p class="text-base">Mặt hàng phụ kiện các thương hiệu nổi bật</p>
+      <div class="flex flex-col items-center border-b-[2px] pb-10">
+        <!--  -->
+        <div class="w-full flex flex-col items-center">
+          <div class="w-full flex flex-col lg:flex-row py-3">
+            <div class="w-full lg:w-1/3 p-1">
+              <div
+                class="overflow-hidden h-[14rem] border-[1px] border-gray-200 rounded-xl"
+              >
+                <div class="flex items-center">
+                  <img
+                    class="object-cover"
+                    src="/imgs/bo-suu-tap-new-balance-550-moi-n.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="">
+                <p class="text-base font-bold">
+                  New Balance 550 da bóng bẩy và sức hút của thiết kế Retro
+                </p>
+              </div>
+            </div>
+            <div class="w-full lg:w-1/3 p-1">
+              <div
+                class="overflow-hidden h-[14rem] border-[1px] border-gray-200 rounded-xl"
+              >
+                <div class="flex items-center">
+                  <img
+                    class="object-cover"
+                    src="/imgs/bo-suu-tap-new-balance-550-moi-n.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="">
+                <p class="text-base font-bold">
+                  New Balance 550 da bóng bẩy và sức hút của thiết kế Retro
+                </p>
+              </div>
+            </div>
+            <div class="w-full lg:w-1/3 p-1">
+              <div
+                class="overflow-hidden h-[14rem] border-[1px] border-gray-200 rounded-xl"
+              >
+                <div class="flex items-center">
+                  <img
+                    class="object-cover"
+                    src="/imgs/bo-suu-tap-new-balance-550-moi-n.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="">
+                <p class="text-base font-bold">
+                  New Balance 550 da bóng bẩy và sức hút của thiết kế Retro
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <div class="px-4 lg:px-36 py-12 w-full flex flex-col gap-1">
+      <p class="text-base font-bold">Áo Khoác The North Face</p>
+      <p class="text-base">
+        Mua sắm các sản phẩm Collab của TNF với các thương hiệu hàng đầu thế
+        giới như Gucci, Supreme,…
+      </p>
+      <div class="flex flex-col items-center border-b-[2px] pb-10">
+        <!--  -->
+        <div class="w-full flex flex-col items-center">
+          <div class="w-full flex flex-wrap">
+            <!--  -->
+            <div class="w-1/2 lg:w-1/4 p-1">
+              <div
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
+              >
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
+                  <img class="object-cover" src="/imgs/428.png" alt="" />
+                </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
+              </div>
+              <div class="flex flex-col text-sm gap-1 py-2">
+                <p class="underline">Áo quần</p>
+                <p class="text-pretty cursor-pointer hover:text-blue-300">
+                  Áo The North Face Reversible Fleece Jacket ‘Beige’ NJ4FP54B
+                </p>
+                <p class="font-bold">4,500,000 đ</p>
+              </div>
+            </div>
+            <div class="w-1/2 lg:w-1/4 p-1">
+              <div
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
+              >
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
+                  <img class="object-cover" src="/imgs/428.png" alt="" />
+                </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
+              </div>
+              <div class="flex flex-col text-sm gap-1 py-2">
+                <p class="underline">Áo quần</p>
+                <p class="text-pretty cursor-pointer hover:text-blue-300">
+                  Áo The North Face Reversible Fleece Jacket ‘Beige’ NJ4FP54B
+                </p>
+                <p class="font-bold">4,500,000 đ</p>
+              </div>
+            </div>
+            <div class="w-1/2 lg:w-1/4 p-1">
+              <div
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
+              >
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
+                  <img class="object-cover" src="/imgs/428.png" alt="" />
+                </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
+              </div>
+              <div class="flex flex-col text-sm gap-1 py-2">
+                <p class="underline">Áo quần</p>
+                <p class="text-pretty cursor-pointer hover:text-blue-300">
+                  Áo The North Face Reversible Fleece Jacket ‘Beige’ NJ4FP54B
+                </p>
+                <p class="font-bold">4,500,000 đ</p>
+              </div>
+            </div>
+            <div class="w-1/2 lg:w-1/4 p-1">
+              <div
+                class="h-max py-14 lg:p-5 lg:h-[19rem] border-[1px] border-gray-200 rounded-3xl relative"
+              >
+                <div class="px-2 lg:p-5 h-max lg:h-full flex items-center">
+                  <img class="object-cover" src="/imgs/428.png" alt="" />
+                </div>
+                <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
+              </div>
+              <div class="flex flex-col text-sm gap-1 py-2">
+                <p class="underline">Áo quần</p>
+                <p class="text-pretty cursor-pointer hover:text-blue-300">
+                  Áo The North Face Reversible Fleece Jacket ‘Beige’ NJ4FP54B
+                </p>
+                <p class="font-bold">4,500,000 đ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <button
+          class="bg-white border-[2px] mt-10 py-3 px-10 w-max rounded-xl hover:bg-black hover:text-white"
+        >
+          Xem tất cả cả
+          <i class="fa-solid fa-angle-right fa-sm" style="color: #000"></i>
+        </button>
+      </div>
+    </div>
+    <footer class="w-full">
+      <div class="w-full lg:flex px-4 lg:px-36">
+        <!--  -->
+        <div class="w-full text-base px-4 lg:w-1/2">
+          <img class="h-14 lg:h-max" src="imgs/ft-logo.webp" alt="" />
+          <p>Công Ty TNHH TM và Đầu Tư Quốc Tế Á Châu MST : 0109539054</p>
+          <p>
+            Authentic Shoes - Nhà sưu tầm và phân phối chính hãng các thương
+            hiệu thời trang quốc tế hàng đầu Việt Nam
+          </p>
+          <div class="py-3 flex flex-col gap-4">
+            <h1 class="text-lg uppercase font-bold">Hệ thống của hàng</h1>
+            <div class="flex flex-col gap-3">
+              <p class="flex items-center gap-4">
+                <i class="fa-solid fa-location-dot"></i>
+                Cơ sở 1: 561 Nguyễn Đình Chiểu Phường 2 - Quận3 - TP. Hồ Chí
+                Minh
+              </p>
+              <p class="flex items-center gap-4">
+                <i class="fa-solid fa-phone"></i>
+                Hotline : 0786665444
+              </p>
+              <p class="flex items-center gap-4">
+                <i class="fa-solid fa-location-dot"></i>
+
+                Cở sở 2 : 70-72 Tây Sơn - Đống Đa - Hà Nội
+              </p>
+              <p class="flex items-center gap-4">
+                <i class="fa-solid fa-phone"></i>
+                Hotline : 0785499555
+              </p>
+              <p class="flex items-center gap-4">
+                <i class="fa-solid fa-envelope"></i>
+                Service@AutheticShoes.com
+              </p>
+              <p class="flex items-center gap-4">
+                ĐKKD: 01E8027929 - Cấp ngày: 01/06/2019 - Nơi cấp: Hà Nội
+              </p>
+            </div>
+            <img class="w-max object-cover" src="/imgs/nhan.png " alt="" />
+          </div>
+        </div>
+        <!--  -->
+        <div class="lg:flex w-full lg:w-1/2">
+          <div class="w-full px-4 lg:w-1/2">
+            <div class="flex flex-col gap-5 pb-4">
+              <p class="text-lg border-b-[2px] w-max">Về chúng tôi</p>
+              <p>Giới Thiêu</p>
+              <p>Tuyển Dụng</p>
+              <p>Dịch Vụ Spa,Sửa Giày</p>
+              <p>Tin Tức-Sự Kiện</p>
+            </div>
+            <div class="flex flex-col gap-5 pb-4">
+              <p class="text-lg border-b-[2px] w-max">Kết nối với chúng tôi</p>
+
+              <div class="flex gap-4">
+                <button
+                  class="w-10 h-10 flex items-center rounded-full bg-black hover:bg-blue-600"
+                >
+                  <i
+                    class="m-auto fa-brands fa-facebook-f"
+                    style="color: #ffff"
+                  ></i>
+                </button>
+                <button
+                  class="w-10 h-10 flex items-center rounded-full bg-black hover:bg-pink-300"
+                >
+                  <i
+                    class="m-auto fa-brands fa-instagram fa-lg"
+                    style="color: #ffff"
+                  ></i>
+                </button>
+                <button
+                  class="w-10 h-10 flex items-center rounded-full bg-black hover:bg-black/45"
+                >
+                  <i
+                    class="m-auto fa-brands fa-tiktok"
+                    style="color: #ffff"
+                  ></i>
+                </button>
+                <button
+                  class="w-10 h-10 flex items-center rounded-full bg-black hover:bg-blue-300"
+                >
+                  <i
+                    class="m-auto fa-brands fa-twitter"
+                    style="color: #ffff"
+                  ></i>
+                </button>
+                <button
+                  class="w-10 h-10 flex items-center rounded-full bg-black hover:bg-red-500"
+                >
+                  <i
+                    class="m-auto fa-brands fa-youtube"
+                    style="color: #ffff"
+                  ></i>
+                </button>
+              </div>
+              <img class="w-max" src="/imgs/thongbao.png" alt="" />
+            </div>
+          </div>
+          <div class="lg:w-1/2">
+            <div class="flex flex-col gap-5 pb-4">
+              <p class="text-lg border-b-[2px] w-max">Về chúng tôi</p>
+              <p>Hướng dẫn mua hàng</p>
+              <p>Chính sách đổi trả và bảo hành</p>
+              <p>Chính Sách Thanh Toán</p>
+              <p>Chính sách bảo vệ thông tin cá nhân của người tiêu dùng</p>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+      </div>
+      <div class="bg-black px-4 lg:px-36 py-2">
+        <p class="text-white">© Bản quyền thuộc về Authentic Shoes</p>
+      </div>
+    </footer>
   </body>
 </html>
