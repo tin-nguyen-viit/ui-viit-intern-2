@@ -15,7 +15,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./pubic/css/tailwind.css" />
+    <link rel="stylesheet" href="./style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>authentic-shoes</title>
   </head>
@@ -47,9 +52,14 @@
             >
               <i class="fa-solid fa-bars"></i>
             </button>
-            <h1>
-              <img class="h-14 lg:h-max" src="imgs/ft-logo.webp" alt="" />
-            </h1>
+            <div>
+              <img
+                class="h-14 lg:h-max"
+                src="imgs/ft-logo.webp"
+                alt="logo authentic-shoes"
+              />
+              <h1 class="hidden">authentic-shoes</h1>
+            </div>
             <!--  -->
             <div
               class="nav-links lg:hidden bg-black/40 w-full h-full top-0 left-0 fixed z-50"
@@ -157,12 +167,41 @@
     <!--  -->
     <main class="w-full">
       <div class="w-full">
-        <img class="" src="./imgs/image-54-2048x711-2.webp" alt="" />
+        <!-- slides -->
+        <section class="splide" aria-label="Splide Basic HTML Example">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide">
+                <img
+                  class="object-cover"
+                  src="./imgs/Jordan7RetroInfraredRelease_Prim-1-2048x648.webp"
+                  alt=""
+                />
+              </li>
+              <li class="splide__slide">
+                <img
+                  class="object-cover"
+                  src="./imgs/Adidas-Yeezy-Slide-2048x648.webp"
+                  alt=""
+                />
+              </li>
+              <li class="splide__slide">
+                <img
+                  class="object-cover"
+                  src="./imgs/Jordan7RetroInfraredRelease_Prim-1-2048x648.webp"
+                  alt=""
+                />
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!--  -->
         <div
           class="flex justify-center items-center gap-4 py-6 mx-4 lg:mx-36 border-b-[1px] border-gray-400/30"
         >
           <button
-            class="rounded-full p-2 lg:py-8 lg:px-12 bg-black text-white lg:rounded-xl"
+            class="rounded-full p-2 lg:py-6 lg:px-12 bg-black text-white lg:rounded-xl"
           >
             <h2
               class="flex justify-center items-center w-16 h-16 lg:h-max lg:w-24"
@@ -1381,14 +1420,21 @@
       <div class="w-full lg:flex px-4 lg:max-w-[80rem] mx-auto">
         <!--  -->
         <div class="w-full text-base px-4 lg:w-1/2">
-          <img class="h-14 lg:h-max" src="imgs/ft-logo.webp" alt="" />
+          <div>
+            <img
+              class="h-14 lg:h-max"
+              src="imgs/ft-logo.webp"
+              alt="logo authentic-shoes"
+            />
+            <h1 class="hidden">authentic-shoes</h1>
+          </div>
           <p>Công Ty TNHH TM và Đầu Tư Quốc Tế Á Châu MST : 0109539054</p>
           <p>
             Authentic Shoes - Nhà sưu tầm và phân phối chính hãng các thương
             hiệu thời trang quốc tế hàng đầu Việt Nam
           </p>
           <div class="py-3 flex flex-col gap-4">
-            <h1 class="text-lg uppercase font-bold">Hệ thống của hàng</h1>
+            <p class="text-lg uppercase font-bold">Hệ thống của hàng</p>
             <div class="flex flex-col gap-3">
               <p class="flex items-center gap-4">
                 <i class="fa-solid fa-location-dot"></i>
@@ -1433,46 +1479,51 @@
               <p class="text-lg border-b-[2px] w-max">Kết nối với chúng tôi</p>
 
               <div class="flex gap-4">
-                <button
-                  class="w-10 h-10 flex items-center rounded-full bg-black hover:bg-blue-600"
+                <a
+                  class="w-10 h-10 flex items-center rounded-full bg-black hover:bg-blue-600 shrink-0"
+                  href=""
                 >
                   <i
                     class="m-auto fa-brands fa-facebook-f"
                     style="color: #ffff"
                   ></i>
-                </button>
-                <button
-                  class="w-10 h-10 flex items-center rounded-full bg-black hover:bg-pink-300"
+                </a>
+                <a
+                  class="w-10 h-10 flex items-center rounded-full bg-black hover:bg-pink-300 shrink-0"
+                  href=""
                 >
                   <i
                     class="m-auto fa-brands fa-instagram fa-lg"
                     style="color: #ffff"
                   ></i>
-                </button>
-                <button
-                  class="w-10 h-10 flex items-center rounded-full bg-black hover:bg-black/45"
+                </a>
+                <a
+                  class="w-10 h-10 flex items-center rounded-full bg-black hover:bg-black/45 shrink-0"
+                  href=""
                 >
                   <i
                     class="m-auto fa-brands fa-tiktok"
                     style="color: #ffff"
                   ></i>
-                </button>
-                <button
-                  class="w-10 h-10 flex items-center rounded-full bg-black hover:bg-blue-300"
+                </a>
+                <a
+                  class="w-10 h-10 flex items-center rounded-full bg-black hover:bg-blue-300 shrink-0"
+                  href=""
                 >
                   <i
                     class="m-auto fa-brands fa-twitter"
                     style="color: #ffff"
                   ></i>
-                </button>
-                <button
-                  class="w-10 h-10 flex items-center rounded-full bg-black hover:bg-red-500"
+                </a>
+                <a
+                  class="w-10 h-10 flex items-center rounded-full bg-black hover:bg-red-500 shrink-0"
+                  href=""
                 >
                   <i
                     class="m-auto fa-brands fa-youtube"
                     style="color: #ffff"
                   ></i>
-                </button>
+                </a>
               </div>
               <img class="w-max" src="./imgs/thongbao.png" alt="" />
             </div>
@@ -1495,18 +1546,8 @@
         </p>
       </div>
     </footer>
-    <script>
-      const navLinks = document.querySelector(".nav-links");
-      function showSidebar(event) {
-        event.name === "menu",
-          navLinks.classList.add("block"),
-          navLinks.classList.remove("hidden");
-      }
-      function hideSidebar(event) {
-        event.name == "close",
-          navLinks.classList.add("hidden"),
-          navLinks.classList.add("block");
-      }
-    </script>
   </body>
+  <script src="./script.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 </html>
